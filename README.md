@@ -63,10 +63,10 @@ plt.show()
 ```
 ---
 ## 🔎 Expected Output
-• Sentences about animals cluster together.
-• Sentences about finance cluster together.
-• The word bank shows polysemy: “river bank” vs “money bank” land in different regions.
-• Fruits are far from finance/animals.
+- Sentences about animals cluster together.
+- Sentences about finance cluster together.
+- The word bank shows polysemy: “river bank” vs “money bank” land in different regions.
+- Fruits are far from finance/animals.
 ---
 ## 📂 Project Structure
 
@@ -75,12 +75,12 @@ plt.show()
 
 ---
 ## 📚 References
-• Sentence-BERT Paper
-• Sentence-Transformers Library
-• Scikit-learn PCA
-• t-SNE
+- Sentence-BERT Paper
+- Sentence-Transformers Library
+- Scikit-learn PCA
+- t-SNE
 ---
 ## 🎯 Next Steps
-• Extend to larger corpora (e.g., FAQs, customer feedback).
-• Store embeddings in FAISS/ChromaDB for semantic search.
-• Try domain-specific models (finance, biomedical, legal).
+- Extend to larger corpora (e.g., FAQs, customer feedback).
+- Store embeddings in FAISS/ChromaDB for semantic search.
+- Try domain-specific models (finance, biomedical, legal).
