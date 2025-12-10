@@ -62,25 +62,25 @@ plt.title("Sentence Embeddings Visualized with t-SNE")
 plt.show()
 ```
 ---
-🔎 Expected Output
+## 🔎 Expected Output
 • Sentences about animals cluster together.
 • Sentences about finance cluster together.
 • The word bank shows polysemy: “river bank” vs “money bank” land in different regions.
 • Fruits are far from finance/animals.
 ---
-📂 Project Structure
+## 📂 Project Structure
 
 ├── README.md        # Project documentation
 ├── demo.py          # Main script for embeddings + visualization
 
 ---
-📚 References
+## 📚 References
 • Sentence-BERT Paper
 • Sentence-Transformers Library
 • Scikit-learn PCA
 • t-SNE
 ---
-🎯 Next Steps
+## 🎯 Next Steps
 • Extend to larger corpora (e.g., FAQs, customer feedback).
 • Store embeddings in FAISS/ChromaDB for semantic search.
 • Try domain-specific models (finance, biomedical, legal).
