@@ -70,8 +70,8 @@ plt.show()
 ---
 ## 📂 Project Structure
 
-├── README.md        # Project documentation
-├── demo.py          # Main script for embeddings + visualization
+- ├── README.md        # Project documentation
+- ├── embeddings_sentence_transformer.ipynb # Main script for embeddings + visualization
 
 ---
 ## 📚 References
