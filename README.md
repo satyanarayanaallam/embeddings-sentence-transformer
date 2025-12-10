@@ -19,7 +19,8 @@ It shows how semantically similar sentences cluster together in vector space.
 git clone <your-repo-url>
 cd <your-repo-folder>
 pip install -U sentence-transformers scikit-learn matplotlib
-
+```
+```bash
 from sentence_transformers import SentenceTransformer, util
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
@@ -59,6 +60,7 @@ for i, label in enumerate(sentences):
 
 plt.title("Sentence Embeddings Visualized with t-SNE")
 plt.show()
+```
 ---
 🔎 Expected Output
 • Sentences about animals cluster together.
